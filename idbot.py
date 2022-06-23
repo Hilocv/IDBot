@@ -15,9 +15,9 @@ from tgbot_ping import get_runtime
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(filename)s [%(levelname)s]: %(message)s')
 
 PROXY = os.getenv("PROXY")
-TOKEN = os.getenv("TOKEN")
-APP_ID = os.getenv("APP_ID")
-APP_HASH = os.getenv("APP_HASH")
+TOKEN = os.getenv("5389315521:AAFeRii9i9jIMwreLaiHWcKmrOC1bjtstMc")
+APP_ID = os.getenv("14681595")
+APP_HASH = os.getenv("a86730aab5c59953c424abb4396d32d5")
 
 # telegram DC map: https://docs.pyrogram.org/faq/what-are-the-ip-addresses-of-telegram-data-centers
 DC_MAP = {
